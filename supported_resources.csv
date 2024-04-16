@@ -1,147 +1,147 @@
 Resource Type,Description
-Account,
-ActivityDefinition,
-AdverseEvent,
-AllergyIntolerance,
-Appointment,
-AppointmentResponse,
-AuditEvent,
-Basic,
-Binary,
-BiologicallyDerivedProduct,
-BodyStructure,
-Bundle,
-CapabilityStatement,
-CarePlan,
-CareTeam,
-CatalogEntry,
-ChargeItem,
-ChargeItemDefinition,
-Claim,
-ClaimResponse,
-ClinicalImpression,
-CodeSystem,
-Communication,
-CommunicationRequest,
-CompartmentDefinition,
-Composition,
-ConceptMap,
-Condition,
-Consent,
-Contract,
-Coverage,
-CoverageEligibilityRequest,
-CoverageEligibilityResponse,
-DetectedIssue,
-Device,
-DeviceDefinition,
-DeviceMetric,
-DeviceRequest,
-DeviceUseStatement,
-DiagnosticReport,
-DocumentManifest,
-DocumentReference,
-EffectEvidenceSynthesis,
-Encounter,
-Endpoint,
-EnrollmentRequest,
-EnrollmentResponse,
-EpisodeOfCare,
-EventDefinition,
-Evidence,
-EvidenceVariable,
-ExampleScenario,
-ExplanationOfBenefit,
-FamilyMemberHistory,
-Flag,
-Goal,
-GraphDefinition,
-Group,
-GuidanceResponse,
-HealthcareService,
-ImagingStudy,
-Immunization,
-ImmunizationEvaluation,
-ImmunizationRecommendation,
-ImplementationGuide,
-InsurancePlan,
-Invoice,
-Library,
-Linkage,
-List,
-Location,
-Measure,
-MeasureReport,
-Media,
-Medication,
-MedicationAdministration,
-MedicationDispense,
-MedicationKnowledge,
-MedicationRequest,
-MedicationStatement,
-MedicinalProduct,
-MedicinalProductAuthorization,
-MedicinalProductContraindication,
-MedicinalProductIndication,
-MedicinalProductIngredient,
-MedicinalProductInteraction,
-MedicinalProductManufactured,
-MedicinalProductPackaged,
-MedicinalProductPharmaceutical,
-MedicinalProductUndesirableEffect,
-MessageDefinition,
-MessageHeader,
-MolecularSequence,
-NamingSystem,
-NutritionOrder,
-Observation,
-ObservationDefinition,
-OperationDefinition,
-OperationOutcome,
-Organization,
-OrganizationAffiliation,
-Parameters,
-Patient,
-PaymentNotice,
-PaymentReconciliation,
-Person,
-PlanDefinition,
-Practitioner,
-PractitionerRole,
-Procedure,
-Provenance,
-Questionnaire,
-QuestionnaireResponse,
-RelatedPerson,
-RequestGroup,
-ResearchDefinition,
-ResearchElementDefinition,
-ResearchStudy,
-ResearchSubject,
-RiskAssessment,
-RiskEvidenceSynthesis,
-Schedule,
-SearchParameter,
-ServiceRequest,
-Slot,
-Specimen,
-SpecimenDefinition,
-StructureDefinition,
-StructureMap,
-Subscription,
-Substance,
-SubstanceNucleicAcid,
-SubstancePolymer,
-SubstanceProtein,
-SubstanceReferenceInformation,
-SubstanceSourceMaterial,
-SubstanceSpecification,
-SupplyDelivery,
-SupplyRequest,
-Task,
-TerminologyCapabilities,
-TestReport,
-TestScript,
-ValueSet,
-VerificationResult,
-VisionPrescription,
+Account,No generated description found
+ActivityDefinition,No generated description found
+AdverseEvent,No generated description found
+AllergyIntolerance,No generated description found
+Appointment,No generated description found
+AppointmentResponse,No generated description found
+AuditEvent,No generated description found
+Basic,No generated description found
+Binary,No generated description found
+BiologicallyDerivedProduct,No generated description found
+BodyStructure,No generated description found
+Bundle,No generated description found
+CapabilityStatement,No generated description found
+CarePlan,No generated description found
+CareTeam,No generated description found
+CatalogEntry,No generated description found
+ChargeItem,No generated description found
+ChargeItemDefinition,No generated description found
+Claim,No generated description found
+ClaimResponse,No generated description found
+ClinicalImpression,No generated description found
+CodeSystem,No generated description found
+Communication,No generated description found
+CommunicationRequest,No generated description found
+CompartmentDefinition,No generated description found
+Composition,No generated description found
+ConceptMap,No generated description found
+Condition,No generated description found
+Consent,No generated description found
+Contract,No generated description found
+Coverage,No generated description found
+CoverageEligibilityRequest,No generated description found
+CoverageEligibilityResponse,No generated description found
+DetectedIssue,No generated description found
+Device,No generated description found
+DeviceDefinition,No generated description found
+DeviceMetric,No generated description found
+DeviceRequest,No generated description found
+DeviceUseStatement,No generated description found
+DiagnosticReport,No generated description found
+DocumentManifest,No generated description found
+DocumentReference,No generated description found
+EffectEvidenceSynthesis,No generated description found
+Encounter,No generated description found
+Endpoint,No generated description found
+EnrollmentRequest,No generated description found
+EnrollmentResponse,No generated description found
+EpisodeOfCare,No generated description found
+EventDefinition,No generated description found
+Evidence,No generated description found
+EvidenceVariable,No generated description found
+ExampleScenario,No generated description found
+ExplanationOfBenefit,No generated description found
+FamilyMemberHistory,No generated description found
+Flag,No generated description found
+Goal,No generated description found
+GraphDefinition,No generated description found
+Group,No generated description found
+GuidanceResponse,No generated description found
+HealthcareService,No generated description found
+ImagingStudy,No generated description found
+Immunization,No generated description found
+ImmunizationEvaluation,No generated description found
+ImmunizationRecommendation,No generated description found
+ImplementationGuide,No generated description found
+InsurancePlan,No generated description found
+Invoice,No generated description found
+Library,No generated description found
+Linkage,No generated description found
+List,No generated description found
+Location,No generated description found
+Measure,No generated description found
+MeasureReport,No generated description found
+Media,No generated description found
+Medication,No generated description found
+MedicationAdministration,No generated description found
+MedicationDispense,No generated description found
+MedicationKnowledge,No generated description found
+MedicationRequest,No generated description found
+MedicationStatement,No generated description found
+MedicinalProduct,No generated description found
+MedicinalProductAuthorization,No generated description found
+MedicinalProductContraindication,No generated description found
+MedicinalProductIndication,No generated description found
+MedicinalProductIngredient,No generated description found
+MedicinalProductInteraction,No generated description found
+MedicinalProductManufactured,No generated description found
+MedicinalProductPackaged,No generated description found
+MedicinalProductPharmaceutical,No generated description found
+MedicinalProductUndesirableEffect,No generated description found
+MessageDefinition,No generated description found
+MessageHeader,No generated description found
+MolecularSequence,No generated description found
+NamingSystem,No generated description found
+NutritionOrder,No generated description found
+Observation,No generated description found
+ObservationDefinition,No generated description found
+OperationDefinition,No generated description found
+OperationOutcome,No generated description found
+Organization,No generated description found
+OrganizationAffiliation,No generated description found
+Parameters,No generated description found
+Patient,No generated description found
+PaymentNotice,No generated description found
+PaymentReconciliation,No generated description found
+Person,No generated description found
+PlanDefinition,No generated description found
+Practitioner,No generated description found
+PractitionerRole,No generated description found
+Procedure,No generated description found
+Provenance,No generated description found
+Questionnaire,No generated description found
+QuestionnaireResponse,No generated description found
+RelatedPerson,No generated description found
+RequestGroup,No generated description found
+ResearchDefinition,No generated description found
+ResearchElementDefinition,No generated description found
+ResearchStudy,No generated description found
+ResearchSubject,No generated description found
+RiskAssessment,No generated description found
+RiskEvidenceSynthesis,No generated description found
+Schedule,No generated description found
+SearchParameter,No generated description found
+ServiceRequest,No generated description found
+Slot,No generated description found
+Specimen,No generated description found
+SpecimenDefinition,No generated description found
+StructureDefinition,No generated description found
+StructureMap,No generated description found
+Subscription,No generated description found
+Substance,No generated description found
+SubstanceNucleicAcid,No generated description found
+SubstancePolymer,No generated description found
+SubstanceProtein,No generated description found
+SubstanceReferenceInformation,No generated description found
+SubstanceSourceMaterial,No generated description found
+SubstanceSpecification,No generated description found
+SupplyDelivery,No generated description found
+SupplyRequest,No generated description found
+Task,No generated description found
+TerminologyCapabilities,No generated description found
+TestReport,No generated description found
+TestScript,No generated description found
+ValueSet,No generated description found
+VerificationResult,No generated description found
+VisionPrescription,No generated description found

@@ -5,10 +5,16 @@ import time
 fhir_server_base_url = "https://hapi.fhir.org/baseR4"
 
 def get_resource_description(resource_type):
-    """Fetches a brief description of the resource type."""
+    """Fetches a brief description of the resource type, focusing on the first 'div' within generated text."""
     response = requests.get(f"{fhir_server_base_url}/{resource_type}")
     if response.status_code == 200:
-        return response.json().get('text', {}).get('div')  
+        metadata = response.json()
+        # Focus on first 'div' within the generated text section
+        if metadata.get('text', {}).get('status') == 'generated':
+            first_div = metadata['text']['div'].split('</div>')[0] 
+            return first_div
+        else:
+            return "No generated description found" 
     else:
         return "Description not found"
 
