@@ -1,45 +1,46 @@
+"""
+This module provides a function to retrieve patient resource IDs from a FHIR server.
+"""
+
 import requests
+
 
 def get_patient_resource_ids(fhir_server_url="http://hapi.fhir.org/baseR4", timeout=10):
     """
-    Retrieves patient resource IDs from the HAPI FHIR test server with a timeout.
-
-    Args:
-        fhir_server_url (str, optional): The URL of the FHIR server. Defaults to "http://hapi.fhir.org/baseR4".
-        timeout (int, optional): The timeout in seconds for the request. Defaults to 10.
-
     Returns:
-        list: A list of patient resource IDs (strings) if successful, or an empty list if no patients are found.
+        list: A list of patient resource IDs (strings) or an empty list if none are found.
     """
-
-    url = f"{fhir_server_url}/Patient"  # Construct the URL for Patient resources
-    headers = {"Accept": "application/fhir+json"}  # Specify JSON format
+    patient_resource_ids = []
+    url = f"{fhir_server_url}/Patient"
+    headers = {"Accept": "application/fhir+json"}
 
     try:
         response = requests.get(url, headers=headers, timeout=timeout)
-        response.raise_for_status()  # Raise an exception for non-2xx status codes
-
+        response.raise_for_status()  # Check for HTTP errors
         data = response.json()
-        patient_resource_ids = []  # Declare patient_resource_ids inside the try block
 
-        if data.get("entry"):
+        # Check if there are entries in the response
+        if "entry" in data:
             for entry in data["entry"]:
-                resource_id = entry["resource"]["id"]  # Declare resource_id inside the loop
-                patient_resource_ids.append(resource_id)
-
-        return patient_resource_ids
+                patient_resource_ids.append(entry["resource"]["id"])
+        else:
+            print(
+                "No patient resources found."
+            )  # Inform when no patient resources are found
 
     except requests.exceptions.RequestException as e:
         print(f"Error retrieving patient IDs: {e}")
 
-    return []  # Return an empty list on errors
+    return patient_resource_ids
 
 
 if __name__ == "__main__":
-    patient_resource_ids = get_patient_resource_ids()
-    if patient_resource_ids:
+    patient_ids = get_patient_resource_ids()
+    if patient_ids:
         print("Retrieved patient resource IDs:")
-        for resource_id in patient_resource_ids:
-            print(resource_id)
+        for patient_id in patient_ids:
+            print(patient_id)
     else:
-        print("No patient resources found.")
+        print(
+            "No patient resources found."
+        )  # This line is already included within the function
