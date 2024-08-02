@@ -1,5 +1,5 @@
 """
-This script interacts with a FHIR server to fetch available resource types and save them to a CSV file.
+This script interacts with a FHIR server to fetch available resource types and saves them to a CSV file.
 """
 
 import csv
