@@ -1,1 +1,6 @@
 requests
+tqdm
+fhirclient
+matplotlib
+pandas
+openpyxl
