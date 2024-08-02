@@ -8,8 +8,6 @@ import requests
 # FHIR server
 fhir_server_url = "https://hapi.fhir.org/baseR4/metadata"
 
-
-# fetch resource types from the FHIR server
 def fetch_resource_types_and_info(url):
     try:
         response = requests.get(url, timeout=10)
