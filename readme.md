@@ -36,6 +36,7 @@ To run the Python scripts, use the following commands:
 python fhir_resource_types.py
 python fhir_patient_resources.py
 python idc_nonduplicates_metadata.py
+ ```
 
 **Outputs**
     fhir_resource_types.csv (list of test fhir resources available)
