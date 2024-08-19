@@ -2,22 +2,40 @@
 
 ## Project Overview
 
-The `fhir-hapi` project is a resource for developers to test and develop using a demo Fast Healthcare Interoperability Resources (FHIR) tool which leverges the HAPI FHIR library. 
+The primary purpose of the FHIR HAPI Test Server http://hapi.fhir.org is to provide a platform for testing, developing, and experimenting with FHIR (Fast Healthcare Interoperability Resources) APIs and resources. It is designed to simulate a real FHIR server.
 
-My simple python scripts enables interacting with  FHIR resources at http://hapi.fhir.org/baseR4, retrieving anonymized patient IDs, providing available resource types for testing and visualizing the number of attributes associatd with each FHIR resource type.  
+These simple python scripts enable interacting with FHIR resources at http://hapi.fhir.org/baseR4, retrieving anonymized patient IDs, providing available resource types for testing and visualizing the number of attributes (ie medications) associatd with each FHIR resource type.  
 
 
 ## Usage
 
+
+**Clone the repository:**
+
+```bash
+git clone https://github.com/OpenBioResearch/fhir-hapi-org.git
+cd fhir-hap-org
+```
+
+**Create a virtual environment (optional but recommended):**
+
+```bash 
+python -m venv .venv
+source .venv/bin/activate  # git bash
+```
 **Install the Python dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-**Run the python scriptS:**
-    fhir_resource_types.py
-    python fhir_patient_resources.py
-    fhir_patient_ids.py
+## Running the Python Scripts
+
+To run the Python scripts, use the following commands:
+
+```bash
+python fhir_resource_types.py
+python fhir_patient_resources.py
+python idc_nonduplicates_metadata.py
 
 **Outputs**
     fhir_resource_types.csv (list of test fhir resources available)
